@@ -46,3 +46,16 @@ body {
 .nav-container a:hover {
     color: #555555;
 }
+section {
+    margin-bottom: 70px;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.7;
+}
