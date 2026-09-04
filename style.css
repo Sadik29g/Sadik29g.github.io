@@ -30,6 +30,10 @@ body {
 }
 .navbar {
     border-bottom: 1px solid #e5e5e5;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1000;
 }
 
 .nav-container {
