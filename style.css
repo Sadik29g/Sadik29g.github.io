@@ -103,3 +103,9 @@ section h2 {
     color: #666666;
     max-width: 850px;
 }
+.bio {
+    margin-top: 24px;
+    max-width: 850px;
+    font-size: 17px;
+    line-height: 1.7;
+}
