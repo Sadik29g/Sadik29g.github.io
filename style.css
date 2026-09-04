@@ -94,3 +94,12 @@ section h2 {
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 8px;
 }
+.position {
+    color: #444444;
+    font-weight: 500;
+}
+
+.research {
+    color: #666666;
+    max-width: 850px;
+}
