@@ -5,3 +5,23 @@ body {
     background: #ffffff;
     color: #222222;
 }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 30px;
+}
+
+.intro h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.position {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.research {
+    font-size: 17px;
+    line-height: 1.6;
+}
