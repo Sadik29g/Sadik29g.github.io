@@ -274,3 +274,11 @@ footer {
         gap: 20px;
     }
 }
+.project-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
