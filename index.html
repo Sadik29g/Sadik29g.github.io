@@ -3,224 +3,482 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description" content="Academic website of Ihzaz Abrar Sadik, Lecturer at BRAC University, with research interests in Reinforcement Learning, Applied Machine Learning, Deep Learning, Data Science, and Graph Theory.">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="Ihzaz Abrar Sadik">
+    <meta property="og:description" content="Academic website of Ihzaz Abrar Sadik — Lecturer, researcher, and Data Science graduate student with interests in Reinforcement Learning, Machine Learning, Deep Learning, and Graph Theory.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sadik29g.github.io/">
+    <meta property="og:image" content="https://sadik29g.github.io/profile.png">
+
     <title>Ihzaz Abrar Sadik</title>
 
+    <link rel="canonical" href="https://sadik29g.github.io/">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="profile.png">
 </head>
+
 <body>
-    <nav class="navbar">
-    <div class="nav-container">
-        <a href="#home">Home</a>
-        <a href="#education">Education</a>
-        <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#contact">Contact</a>
-        <a href="#personal">Personal</a>
-    </div>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#skills">Skills</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#personal">Personal</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
-    <main class="container">
+
+    <main class="container" id="main-content">
+
         <section class="intro" id="home">
-            <img src="profile.png" alt="Ihzaz Abrar Sadik" class="profile-photo">
-        
+
+            <div class="profile-column">
+                <img src="profile.png" alt="Portrait of Ihzaz Abrar Sadik" class="profile-photo">
+            </div>
+
             <div class="intro-content">
+
                 <h1>Ihzaz Abrar Sadik</h1>
-        
+
                 <p class="position">
-                    Lecturer, Department of Computer Science and Engineering, BRAC University
+                    Lecturer, Department of Computer Science and Engineering,
+                    BRAC University
                 </p>
-        
-                <p class="research">
-                    Reinforcement Learning • Applied Machine Learning & Deep Learning • Data Science • Graph Theory
+
+                <p class="research-line">
+                    Reinforcement Learning
+                    <span>•</span>
+                    Applied Machine Learning & Deep Learning
+                    <span>•</span>
+                    Data Science
+                    <span>•</span>
+                    Graph Theory
                 </p>
-        
+
                 <p class="bio">
                     I am a Lecturer in the Department of Computer Science and Engineering at BRAC University,
-                    with a background in Electrical and Electronic Engineering. My current research interests
-                    center on Reinforcement Learning and its applications in Data Science, alongside applied
-                    Machine Learning, Deep Learning, and graph-based problems.
+                    with an academic background in Electrical and Electronic Engineering. I am currently pursuing
+                    an M.Sc. in Computer Science and Engineering with a specialization in Data Science.
                 </p>
-        
+
+                <p class="bio">
+                    My primary research interest lies in Reinforcement Learning, particularly in developing and
+                    applying RL methods to practical problems in Data Science. I am also interested in applied
+                    Machine Learning and Deep Learning, with a strong personal interest in Graph Theory and
+                    graph-based problem solving.
+                </p>
+
                 <div class="quick-links">
                     <a href="mailto:sadik29bd@gmail.com">Email</a>
                     <a href="https://github.com/sadik29g" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
+
             </div>
+
         </section>
-               <section id="education">
+
+
+        <section id="education">
+
             <h2>Education</h2>
-        
+
             <div class="education-grid">
-                <div class="education-item">
-                    <h3>M.Sc. in Computer Science and Engineering (Data Science)</h3>
-                    <p>
-                        <strong>BRAC University</strong> — 2026–Present
+
+                <article class="education-item">
+                    <p class="section-label">2026–Present</p>
+
+                    <h3>M.Sc. in Computer Science and Engineering</h3>
+
+                    <p class="education-specialization">
+                        Specialization: Data Science
                     </p>
-                </div>
-        
-                <div class="education-item">
-                    <h3>B.Sc. in Electrical and Electronic Engineering</h3>
+
                     <p>
-                        <strong>Bangladesh University of Engineering and Technology (BUET)</strong> — 2019–2024<br>
+                        <strong>BRAC University</strong>
+                    </p>
+                </article>
+
+                <article class="education-item">
+                    <p class="section-label">2019–2024</p>
+
+                    <h3>B.Sc. in Electrical and Electronic Engineering</h3>
+
+                    <p class="education-specialization">
                         Major: Electrical Energy and Power Systems
                     </p>
-                </div>
+
+                    <p>
+                        <strong>Bangladesh University of Engineering and Technology (BUET)</strong>
+                    </p>
+                </article>
+
             </div>
+
         </section>
+
+
         <section id="research">
+
             <h2>Research</h2>
-           <div class="research-grid">
-                <div>
+
+            <div class="research-grid">
+
+                <div class="research-block">
+
                     <h3>Research Interests</h3>
-            
+
                     <p>
-                        My primary research interest is Reinforcement Learning, particularly applied RL in Data Science.
-                        I am also interested in applied Machine Learning and Deep Learning.
+                        My primary research interest is Reinforcement Learning, particularly applied RL in
+                        Data Science. I am interested in how sequential decision-making methods can be used
+                        to solve practical problems involving uncertainty, optimization, adaptation, and
+                        data-driven control.
                     </p>
-            
+
                     <p>
-                        I have a particular fascination with Graph Theory—its structures, abstractions, and
-                        problem-solving perspectives genuinely intrigue me, and I enjoy exploring and brainstorming
-                        graph-based problems beyond my formal academic work.
+                        I am also interested in applied Machine Learning and Deep Learning across different
+                        application domains.
                     </p>
+
+                    <p>
+                        Graph Theory holds a particularly strong personal appeal for me. Its structures,
+                        abstractions, and problem-solving perspectives genuinely intrigue me, and I enjoy
+                        exploring and brainstorming graph-based problems even outside formal academic work.
+                    </p>
+
                 </div>
-            
-                <div>
+
+
+                <div class="research-block thesis-block">
+
                     <h3>Undergraduate Thesis</h3>
-            
-                    <p>
-                        <strong>Study of Net Zero Energy Buildings</strong><br>
-                        Supervisor: Yeasir Arafat, Associate Professor, Department of EEE, BUET
+
+                    <p class="thesis-title">
+                        Study of Net Zero Energy Buildings
                     </p>
-            
+
+                    <p>
+                        <strong>Supervisor:</strong><br>
+                        Yeasir Arafat<br>
+                        Associate Professor, Department of EEE, BUET
+                    </p>
+
                     <p>
                         Investigated the feasibility of Net Zero Energy Buildings in Bangladesh using
                         building energy simulation and renewable energy integration.
                     </p>
+
                 </div>
+
             </div>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-        
-            <div class="projects-grid">
-                <div class="project-item">
-                    <h3>Cross-Platform Benchmarking of Human PBMC Transcriptomic Data</h3>
-                    <p>
-                        Comparative analysis of Microarray, Bulk RNA-seq, and Single-Cell RNA-seq datasets using bioinformatics and machine learning pipelines.
-                    </p>
-                </div>
-        
-                <div class="project-item">
-                    <h3>Detection of Disease-Related Genetic Variants using BWT and Machine Learning</h3>
-                    <p>
-                        A probabilistic machine learning project involving sequence alignment, variant detection, sparse learning, and graph-based gene interaction modeling.
-                    </p>
-                </div>
-        
-                <div class="project-item">
-                    <h3>Scalable Multi-Omics Gene Analysis and Recommendation System Using PySpark</h3>
-                    <p>
-                        A scalable data science project using PySpark, graph analytics, Node2Vec embeddings, clustering, and machine learning.
-                    </p>
-                </div>
-            </div>
+
         </section>
 
-        <section id="teaching">
-        <section id="teaching">
-            <h2>Teaching</h2>
-        
-            <div class="teaching-grid">
-                <div>
-                    <h3>Teaching Experience</h3>
-        
-                    <p>
-                        I am a Lecturer in the Department of Computer Science and Engineering at BRAC University.
-                        My teaching experience includes courses in circuits, electronics, and digital electronics.
+
+        <section id="projects">
+
+            <div class="section-heading-row">
+                <h2>Selected Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-item">
+
+                    <p class="project-context">
+                        Advanced Bioinformatics
                     </p>
+
+                    <h3>
+                        Cross-Platform Benchmarking of Human PBMC Transcriptomic Data
+                    </h3>
+
+                    <p>
+                        Benchmarked Microarray, Bulk RNA-seq, and Single-Cell RNA-seq PBMC datasets using
+                        bioinformatics pipelines. The analysis compared cross-platform biological signals
+                        and investigated the effect of MAGIC-based imputation on single-cell data.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Bioinformatics</span>
+                        <span>Machine Learning</span>
+                        <span>RNA-seq</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-item">
+
+                    <p class="project-context">
+                        Probabilistic Machine Learning
+                    </p>
+
+                    <h3>
+                        Detection of Disease-Related Genetic Variants using BWT and Machine Learning
+                    </h3>
+
+                    <p>
+                        Developed a pipeline combining BWT-based sequence alignment, genetic variant
+                        identification, sparse machine learning, pathway-aware feature selection, and
+                        Markov Random Fields for modeling gene interactions and disease-related patterns.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Probabilistic ML</span>
+                        <span>Graphical Models</span>
+                        <span>Genomics</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-item">
+
+                    <p class="project-context">
+                        Big Data Analytics
+                    </p>
+
+                    <h3>
+                        Scalable Multi-Omics Gene Analysis and Recommendation System Using PySpark
+                    </h3>
+
+                    <p>
+                        Built a scalable multi-omics analysis framework using PySpark, graph analytics,
+                        protein interaction networks, Node2Vec embeddings, clustering, and machine learning
+                        for disease prediction and biologically meaningful gene analysis.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>PySpark</span>
+                        <span>Graph Analytics</span>
+                        <span>Node2Vec</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="teaching">
+
+            <h2>Teaching</h2>
+
+            <div class="teaching-grid">
+
+                <div>
+
+                    <h3>Teaching Experience</h3>
+
+                    <p>
+                        I am currently a full-time Lecturer in the Department of Computer Science and
+                        Engineering at BRAC University. Before joining full-time, I served as an Adjunct
+                        Lecturer in the same department.
+                    </p>
+
                     <h3>Courses Taught</h3>
 
-                    <p>
-                        <strong>CSE250:</strong> Circuits & Electronics<br>
-                        <strong>CSE251:</strong> Electronic Circuits & Device Theory<br>
-                        <strong>CSE350:</strong> Digital Electronics & Pulse Techniques
-                    </p>
+                    <div class="course-list">
+
+                        <div class="course-item">
+                            <strong>CSE250</strong>
+                            <span>Circuits & Electronics</span>
+                        </div>
+
+                        <div class="course-item">
+                            <strong>CSE251</strong>
+                            <span>Electronic Circuits & Device Theory</span>
+                        </div>
+
+                        <div class="course-item">
+                            <strong>CSE350</strong>
+                            <span>Digital Electronics & Pulse Techniques</span>
+                        </div>
+
+                    </div>
+
                 </div>
-        
+
+
                 <div>
+
                     <h3>Academic Responsibilities</h3>
-        
+
                     <ul class="responsibility-list">
-                        <li>Course coordination for CSE350: Digital Electronics & Pulse Techniques</li>
-                        <li>Curriculum development, including CO–PO mapping and OBE-based complex engineering problem design</li>
-                        <li>Academic advising for 120+ students</li>
-                        <li>Redesign and development of the CSE350 laboratory</li>
-                        <li>Preparation of extensive course materials, including a book for CSE350</li>
+                        <li>
+                            Course coordination for CSE350: Digital Electronics & Pulse Techniques
+                        </li>
+
+                        <li>
+                            Curriculum development, including CO–PO mapping and OBE-based complex
+                            engineering problem design
+                        </li>
+
+                        <li>
+                            Academic advising for more than 120 students
+                        </li>
+
+                        <li>
+                            Redesign and development of the CSE350 laboratory
+                        </li>
+
+                        <li>
+                            Preparation of extensive course materials, including a dedicated book
+                            for CSE350
+                        </li>
                     </ul>
+
                 </div>
+
             </div>
+
         </section>
-       <section id="achievements">
+
+
+        <section id="skills">
+
+            <h2>Selected Technical Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-group">
+                    <h3>Programming</h3>
+                    <p>
+                        Python, C, C++, MATLAB, Java
+                    </p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Data & Research</h3>
+                    <p>
+                        Reinforcement Learning, Machine Learning, Deep Learning,
+                        Data Science, Graph Analytics, PySpark
+                    </p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Technical Tools</h3>
+                    <p>
+                        MATLAB & Simulink, LaTeX, Proteus, PSpice,
+                        Quartus / Verilog, AutoCAD
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="achievements">
+
             <h2>Achievements</h2>
-        
+
             <div class="achievements-grid">
-                <div class="achievement-item">
+
+                <article class="achievement-item">
+                    <p class="achievement-year">2018</p>
                     <h3>Bangladesh Mathematical Olympiad</h3>
-                    <p>Regional Champion — 2018</p>
-                </div>
-        
-                <div class="achievement-item">
+                    <p>Regional Champion</p>
+                </article>
+
+                <article class="achievement-item">
+                    <p class="achievement-year">2016</p>
                     <h3>Bangladesh Mathematical Olympiad</h3>
-                    <p>2nd Runner-Up — 2016</p>
-                </div>
-        
-                <div class="achievement-item">
+                    <p>2nd Runner-Up</p>
+                </article>
+
+                <article class="achievement-item">
+                    <p class="achievement-year">2016</p>
                     <h3>National Science Olympiad</h3>
-                    <p>1st Place, Divisional Round — 2016</p>
-                </div>
-        
-                <div class="achievement-item">
+                    <p>1st Place, Divisional Round</p>
+                </article>
+
+                <article class="achievement-item">
+                    <p class="achievement-year">2014</p>
                     <h3>Informatics Olympiad</h3>
-                    <p>5th Countrywide and 1st Divisionally — 2014</p>
-                </div>
+                    <p>5th Countrywide and 1st Divisionally</p>
+                </article>
+
             </div>
+
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-        
-            <div class="contact-grid">
-                <div>
-                    <h3>Email</h3>
-                    <p>
-                        <a href="mailto:sadik29bd@gmail.com">sadik29bd@gmail.com</a>
-                    </p>
-                </div>
-        
-                <div>
-                    <h3>GitHub</h3>
-                    <p>
-                        <a href="https://github.com/sadik29g" target="_blank" rel="noopener noreferrer">github.com/sadik29g</a>
-                    </p>
-                </div>
-            </div>
-        </section>
+
+
         <section id="personal">
-            <h2>Personal</h2>
-        
-            <p>
-                A little beyond academics — coming soon.
-            </p>
+
+            <h2>Beyond Academics</h2>
+
+            <div class="personal-content">
+
+                <p>
+                    Mathematical problem solving has been a long-standing interest of mine, going back
+                    to my participation in mathematics, science, and informatics olympiads.
+                </p>
+
+                <p>
+                    Among mathematical topics, Graph Theory is something I particularly enjoy exploring
+                    in my own time. I find myself naturally drawn to thinking about graphs, structures,
+                    connections, and alternative ways of representing problems.
+                </p>
+
+            </div>
+
         </section>
+
+
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <div class="contact-grid">
+
+                <div>
+                    <p class="contact-label">Email</p>
+
+                    <a href="mailto:sadik29bd@gmail.com">
+                        sadik29bd@gmail.com
+                    </a>
+                </div>
+
+                <div>
+                    <p class="contact-label">GitHub</p>
+
+                    <a href="https://github.com/sadik29g"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        github.com/sadik29g
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
+
+
     <footer>
-        <p>© 2026 Ihzaz Abrar Sadik</p>
+        <div class="footer-content">
+            <p>© 2026 Ihzaz Abrar Sadik</p>
+            <p>Academic & Research Website</p>
+        </div>
     </footer>
+
 </body>
 </html>
