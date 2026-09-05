@@ -246,3 +246,11 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+.responsibility-list {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.responsibility-list li {
+    margin-bottom: 8px;
+}
