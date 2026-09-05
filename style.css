@@ -109,3 +109,10 @@ section h2 {
     font-size: 17px;
     line-height: 1.7;
 }
+a {
+    color: #2f5d8a;
+}
+
+a:hover {
+    color: #1f3f5f;
+}
