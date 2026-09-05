@@ -254,3 +254,23 @@ footer {
 .responsibility-list li {
     margin-bottom: 8px;
 }
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.contact-grid h3 {
+    margin-bottom: 6px;
+}
+
+.contact-grid p {
+    margin-top: 0;
+}
+
+@media (max-width: 700px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
