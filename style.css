@@ -192,3 +192,20 @@ footer {
         gap: 20px;
     }
 }
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.project-item {
+    border: 1px solid #e5e5e5;
+    padding: 22px;
+    border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
