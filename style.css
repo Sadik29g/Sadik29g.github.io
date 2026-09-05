@@ -154,3 +154,17 @@ footer {
 .container p {
     text-align: justify;
 }
+@media (max-width: 700px) {
+    .intro {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .profile-photo {
+        margin: 0 auto 10px;
+    }
+
+    .intro-content {
+        width: 100%;
+    }
+}
